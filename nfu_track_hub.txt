@@ -1,0 +1,13 @@
+hub NFu
+shortLabel Nothobranchius furzeri
+longLabel Track hub with Nothobranchius furzeri -omics data
+useOneFile on
+email jasyang@stanford.edu
+
+genome GCF_001465895.1
+
+track SRR16312966
+shortLabel Nfur Pre-Diapause ATACseq Rep1
+longLabel Nfur Pre-Diapause ATACseq Rep1
+type bigwig
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135370ada15813c0977/display?to_ext=bigwig
