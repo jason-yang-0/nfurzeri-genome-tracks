@@ -6,8 +6,72 @@ email jasyang@stanford.edu
 
 genome GCF_001465895.1
 
-track SRR16312966
-shortLabel Nfur Pre-Diapause ATACseq Rep1
-longLabel Nfur Pre-Diapause ATACseq Rep1
-type bigwig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135370ada15813c0977/display?to_ext=bigwig
+track embryoATACseqComposite
+compositeTrack on
+shortLabel Embryo ATAC-seq
+longLabel ATAC-seq in developing and diapause embryos
+visibility pack
+type bigWig
+
+	track SRR16312966
+	parent embryoATACseqComposite
+	shortLabel Pre-Diapause Rep1
+	longLabel Nfur Pre-Diapause ATACseq Rep1
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135370ada15813c0977/display?to_ext=bigwig
+
+	track SRR16312967
+	parent embryoATACseqComposite
+	shortLabel Pre-Diapause Rep2
+	longLabel Nfur Pre-Diapause ATACseq Rep2
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213539cfb399e2927a31/display?to_ext=bigwig
+
+	track SRR16312968
+	parent embryoATACseqComposite
+	shortLabel Development Rep1
+	longLabel Nfur Development ATACseq Rep1
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213529b8add782d82839/display?to_ext=bigwig
+
+	track SRR16312969
+	parent embryoATACseqComposite
+	shortLabel Development Rep2
+	longLabel Nfur Development ATACseq Rep2
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d8d55cbee538a056/display?to_ext=bigwig
+
+	track SRR16312970
+	parent embryoATACseqComposite
+	shortLabel Diapause Day 6 Rep1
+	longLabel Nfur Diapause Day 6 ATACseq Rep1
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d8d9e66b0c2bc04a/display?to_ext=bigwig
+
+	track SRR16312971
+	parent embryoATACseqComposite
+	shortLabel Diapause Day 6 Rep2
+	longLabel Nfur Diapause Day 6 ATACseq Rep2
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135212ec788846ce6df/display?to_ext=bigwig
+
+	track SRR16312972
+	parent embryoATACseqComposite
+	shortLabel Diapause 1 Month Rep1
+	longLabel Nfur Diapause 1 Month ATACseq Rep1
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213554df5946da91ee39/display?to_ext=bigwig
+
+	track SRR16312973
+	parent embryoATACseqComposite
+	shortLabel Diapause 1 Month Rep2
+	longLabel Nfur Diapause 1 Month ATACseq Rep2
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135934710e475ed4b13/display?to_ext=bigwig
+
+	track SRR16312974
+	parent embryoATACseqComposite
+	shortLabel Diapause 1 Month Rep3
+	longLabel Nfur Diapause 1 Month ATACseq Rep3
+	type bigwig
+	bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213539392dac57b5ad27/display?to_ext=bigwig
